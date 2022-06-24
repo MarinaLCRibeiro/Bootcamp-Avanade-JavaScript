@@ -30,7 +30,8 @@ depositar(valor){
    return this._saldo
 }
 }
-
+//extends conta corrente herda informações atributos da conta corrente
+//super vai chamar os atributos 
 class ContaCorrete extends contaBancaria {
     constructor(agencia, numero,   cartaoCredito ){
         super (agencia, numero,   );
